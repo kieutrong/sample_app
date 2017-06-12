@@ -18,17 +18,22 @@ en:
       title: "Ruby on Rails Tutorial"
       the: "The "
 
+  shared:
+    error_messages:
+      error: "error"
+      the_form_contains: "The form contains "
+
   static_pages:
     about:
       about: "About"
       and: "and"
       book: "book"
       is_a: " is a"
+      ruby_on_rails: "Ruby on Rails Tutorial"
       screencast: "screencast series"
       the: "The "
       this_is_the_sample: "This is the sample application for the tutorial."
       to_teach_web: "to teach web development with"
-      ruby_on_rails: "Ruby on Rails Tutorial"
 
     contact:
       contact: "Contact"
@@ -51,6 +56,17 @@ en:
       welcome: "Welcome to the Sample App"
 
   users:
+    create:
+      no_created: "Not create this user"
+      success: "Welcome to the Sample App!"
+
     new:
-      this_will_be_a_signup: "This will be a signup page for new users."
+      confirmation: "Confirmation"
+      create_my_account: "Create my account"
+      email: "Email"
+      name: "Name"
+      password: "Password"
       title: "Sign up"
+
+    show:
+      note: "Couldn't find User with 'id'= "
