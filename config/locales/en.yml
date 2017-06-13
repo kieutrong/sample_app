@@ -1,13 +1,21 @@
 en:
+  invalid_email_password: "Invalid email/password combination"
+
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
 
     header:
+      account: "Account "
       help: "Help"
       home: "Home"
       login: "Log in"
       sample_app: "sample app"
+      log_in: "Log in"
+      log_out: "Log out"
+      settings: "Settings"
+      profile: "Profile"
+      users: "Users"
 
     footer:
       about: "About"
@@ -22,6 +30,12 @@ en:
     error_messages:
       error: "error"
       the_form_contains: "The form contains "
+
+  sessions:
+    new:
+      log_in: "Log in"
+      new_user: "New user? "
+      sign_up_now: "Sign up now!"
 
   static_pages:
     about:
