@@ -35,6 +35,7 @@ en:
     new:
       log_in: "Log in"
       new_user: "New user? "
+      remember_me: "Remember me on this computer"
       sign_up_now: "Sign up now!"
 
   static_pages:
