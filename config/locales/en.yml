@@ -63,7 +63,6 @@ en:
       to_get_help: "To get help on this sample app, see the"
 
     home:
-      rails_logo: "Rails logo"
       ruby_on_rails: "Ruby on Rails Tutorial"
       sample_application: "sample application."
       sign_up: "Sign up now!"
@@ -75,6 +74,22 @@ en:
       no_created: "Not create this user"
       success: "Welcome to the Sample App!"
 
+    destroy:
+      user_deleted: "User deleted"
+      you_can_not_delete: "You can not delete"
+
+    edit:
+      change: "change"
+      confirmation: "Confirmation"
+      edit_user: "Edit user"
+      save_changes: "Save changes"
+      please_log_in: "Please log in."
+      update_your_profile: "Update your profile"
+      you_have_not_access: "You have not access."
+
+    index:
+      all_users: "All users"
+
     new:
       confirmation: "Confirmation"
       create_my_account: "Create my account"
@@ -85,3 +100,10 @@ en:
 
     show:
       note: "Couldn't find User with 'id'= "
+
+    user:
+      delete: "delete"
+      you_sure: "You sure?"
+
+    update:
+      profile_updated: "Profile updated"
