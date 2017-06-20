@@ -1,5 +1,8 @@
 en:
-  invalid_email_password: "Invalid email/password combination"
+  account_activations:
+    edit:
+      account_activated: "Account activated!"
+      invalid_activation_link: "Invalid activation link"
 
   layouts:
     application:
@@ -9,12 +12,11 @@ en:
       account: "Account "
       help: "Help"
       home: "Home"
-      login: "Log in"
-      sample_app: "sample app"
       log_in: "Log in"
       log_out: "Log out"
-      settings: "Settings"
       profile: "Profile"
+      sample_app: "sample app"
+      settings: "Settings"
       users: "Users"
 
     footer:
@@ -32,6 +34,11 @@ en:
       the_form_contains: "The form contains "
 
   sessions:
+    create:
+      account_not_activated: "Account not activated."
+      check_your_email: "Check your email for the activation link."
+      invalid_email_password: "Invalid email/password combination"
+
     new:
       log_in: "Log in"
       new_user: "New user? "
@@ -69,10 +76,22 @@ en:
       this_is_the_home: "This is the home page for the"
       welcome: "Welcome to the Sample App"
 
+  user_mailer:
+    account_activation:
+      activate: "Activate"
+      hi: "Hi "
+      simple_app: "Sample App"
+      welcome_to_the_sample: "Welcome to the Sample App! Click on the link below to activate your account:"
+
+    password_reset:
+      find_me_in: ". find me in "
+
   users:
     create:
       no_created: "Not create this user"
+      please_check_your_email: "Please check your email to activate your account."
       success: "Welcome to the Sample App!"
+      user_password_reset: "User#password_reset"
 
     destroy:
       user_deleted: "User deleted"
@@ -82,8 +101,8 @@ en:
       change: "change"
       confirmation: "Confirmation"
       edit_user: "Edit user"
-      save_changes: "Save changes"
       please_log_in: "Please log in."
+      save_changes: "Save changes"
       update_your_profile: "Update your profile"
       you_have_not_access: "You have not access."
 
