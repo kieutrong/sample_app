@@ -1,5 +1,8 @@
 email:
   maximum: 255
+micropost:
+  maximum_length_content: 255
+  maximum_size_picture: 5
 password:
   minimum: 6
 username:
