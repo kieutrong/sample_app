@@ -1,5 +1,6 @@
 en:
   should_be_less_than_5MB: "should be less than 5MB"
+
   account_activations:
     edit:
       account_activated: "Account activated!"
@@ -48,8 +49,21 @@ en:
       compose_new_micropost: "Compose new micropost..."
       post: "Post"
 
+    stats:
+      followers: "Followers"
+      following: "Following"
+
     user_info:
       micropost: "micropost"
+
+  relationships:
+    create:
+      can_not_follow_user: "Can not follow user"
+      not_found_user: "Not found user"
+
+    destroy:
+      can_not_follow_user: "Can not follow user"
+      not_found_user: "Not found user"
 
   sessions:
     create:
@@ -109,6 +123,7 @@ en:
       to_get_help: "To get help on this sample app, see the"
 
     home:
+      micropost_feed: "Micropost Feed"
       ruby_on_rails: "Ruby on Rails Tutorial"
       sample_application: "sample application."
       sign_up: "Sign up now!"
@@ -151,8 +166,20 @@ en:
       update_your_profile: "Update your profile"
       you_have_not_access: "You have not access."
 
+    follow:
+      follow: "Follow"
+
+    followers:
+      followers: "Followers"
+
+    following:
+      following: "Following"
+
     index:
       all_users: "All users"
+
+    unfollow:
+      unfollow: "Unfollow"
 
     new:
       confirmation: "Confirmation"
@@ -163,7 +190,12 @@ en:
       title: "Sign up"
 
     show:
+      microposts: "Microposts"
       note: "Couldn't find User with 'id'= "
+
+    show_follow:
+      microposts: "Microposts"
+      view_my_profile: "View my profile"
 
     update:
       profile_updated: "Profile updated"
