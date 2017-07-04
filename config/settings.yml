@@ -9,6 +9,7 @@ username:
   maximum: 50
 user:
   reset_expired_time: 2
-  size: 80
+  size_for_gravata_user: 80
+  size_for_gravata_user_follow: 30
   size_gravatar_for: 50
   users_per_page: 10
